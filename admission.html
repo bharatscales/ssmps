@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Admission at SSMPS Amethi — Nursery to Class 8 only. Process, documents, enquiry form.">
+  <title>Admission | SSMPS Amethi</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Smt. Sangeeta Singh Memorial Public School" class="logo-icon" width="120" height="56">
+        <div class="logo-text"><strong>Smt. Sangeeta Singh Memorial Public School</strong><span>Amethi, Uttar Pradesh — 227405</span></div>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Admission</p>
+      <h1>Admission</h1>
+      <p>Enrol your child for Nursery through Class 8 — limited seats per class</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>How to Apply</h2>
+        <p>Follow these steps to secure a seat. For urgent queries, call <a href="tel:+919792201779">9792201779</a> or email <a href="mailto:ssmps01@gmail.com">ssmps01@gmail.com</a>.</p>
+      </div>
+      <div class="steps">
+        <div class="step-item"><span class="step-num">1</span><div><h3>Visit or Call</h3><p>Contact the school office or visit Anand Nagar, Ramleela Ground, NH931, Amethi to check seat availability. Admissions are open for Nursery through Class 8 only.</p></div></div>
+        <div class="step-item"><span class="step-num">2</span><div><h3>Collect / Submit Form</h3><p>Fill the admission form with student and guardian details. You may use the online enquiry below; final admission is confirmed at the office.</p></div></div>
+        <div class="step-item"><span class="step-num">3</span><div><h3>Documents</h3><p>Submit birth certificate, previous report card (if applicable), Aadhaar, passport-size photos, and transfer certificate for students joining from another school.</p></div></div>
+        <div class="step-item"><span class="step-num">4</span><div><h3>Interaction &amp; Fee</h3><p>Short interaction may be scheduled for certain classes. Pay fees as per the school fee structure and collect receipt.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="container split-section">
+      <div class="content-block">
+        <h2>Documents Checklist</h2>
+        <ul>
+          <li>Birth certificate (original + photocopy)</li>
+          <li>Aadhaar card of student and parent</li>
+          <li>Two recent passport-size photographs</li>
+          <li>Previous year mark sheet / report card</li>
+          <li>Transfer certificate (if joining mid-session or from another school)</li>
+          <li>Caste certificate (if applicable for concessions)</li>
+        </ul>
+        <p class="form-note">Upload PDF forms here when available: <code>documents/</code> folder. Ask the office for the latest fee structure.</p>
+      </div>
+      <div>
+        <h2 style="font-family:var(--font-display);color:var(--primary-dark);margin-bottom:1rem">Online Enquiry</h2>
+        <form id="admission-form" class="card" style="box-shadow:var(--shadow)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="child-name">Child's name *</label>
+              <input type="text" id="child-name" name="child-name" required>
+            </div>
+            <div class="form-group">
+              <label for="class-sought">Class sought *</label>
+              <select id="class-sought" name="class-sought" required>
+                <option value="">Select class</option>
+                <option>Nursery</option><option>LKG</option><option>UKG</option>
+                <option>Class 1</option><option>Class 2</option><option>Class 3</option>
+                <option>Class 4</option><option>Class 5</option><option>Class 6</option>
+                <option>Class 7</option><option>Class 8</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="dob">Date of birth</label>
+              <input type="date" id="dob" name="dob">
+            </div>
+            <div class="form-group">
+              <label for="parent-name">Parent / guardian name *</label>
+              <input type="text" id="parent-name" name="parent-name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Mobile number *</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9+\s-]{10,15}" placeholder="9792201779">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="2"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+          <p class="admission-success form-success"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h4>SSMPS Amethi</h4><p>Admissions office: Mon–Sat, school hours</p></div>
+      <div><h4>Contact</h4><ul><li><a href="tel:+919792201779">9792201779</a></li><li><a href="mailto:ssmps01@gmail.com">ssmps01@gmail.com</a></li></ul></div>
+      <div><h4>Visit</h4><ul><li><a href="contacts.html">Directions &amp; map</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>&copy; <span id="year"></span> SSMPS</p></div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>
