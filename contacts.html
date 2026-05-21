@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Sangeeta Singh Memorial Public School Amethi — address, phone, map, enquiry form.">
+  <title>Contact | SSMPS Amethi</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Smt. Sangeeta Singh Memorial Public School" class="logo-icon" width="120" height="56">
+        <div class="logo-text"><strong>Smt. Sangeeta Singh Memorial Public School</strong><span>Amethi, Uttar Pradesh — 227405</span></div>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <h1>Contact Us</h1>
+      <p>We are happy to answer your questions and schedule a campus visit</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container contact-grid">
+      <div>
+        <div class="contact-info-card">
+          <h3>Address</h3>
+          <div class="contact-item">
+            <span class="icon" aria-hidden="true">📍</span>
+            <p>
+              <strong>Sangeeta Singh Memorial Public School</strong><br>
+              Anand Nagar, Ramleela Ground,<br>
+              NH931, Amethi,<br>
+              Uttar Pradesh — 227405
+            </p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <h3>Phone &amp; Email</h3>
+          <div class="contact-item">
+            <span class="icon" aria-hidden="true">📞</span>
+            <p><a href="tel:+919792201779">9792201779</a><br><small>Also listed: 9792201760</small></p>
+          </div>
+          <div class="contact-item">
+            <span class="icon" aria-hidden="true">✉️</span>
+            <p><a href="mailto:ssmps01@gmail.com">ssmps01@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <h3>Social</h3>
+          <div class="contact-item">
+            <span class="icon" aria-hidden="true">f</span>
+            <p>
+              <a href="https://www.facebook.com/p/Sangeeta-Singh-Memorial-Public-School-Amethi-100066679517255/" target="_blank" rel="noopener noreferrer">
+                Facebook — Sangeeta Singh Memorial Public School Amethi
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="School location on map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Anand+Nagar+Ramleela+Ground+NH931+Amethi+Uttar+Pradesh+227405&hl=en&z=15&output=embed">
+          </iframe>
+        </div>
+        <p class="form-note mt-2">
+          <a href="https://www.google.com/maps/search/?api=1&query=Anand+Nagar+Ramleela+Ground+NH931+Amethi" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+        </p>
+      </div>
+
+      <div>
+        <h2 style="font-family:var(--font-display);color:var(--primary-dark);margin-bottom:1rem">Send a Message</h2>
+        <form id="contact-form" class="card">
+          <div class="form-group">
+            <label for="name">Your name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Phone *</label>
+              <input type="tel" id="contact-phone" name="phone" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option>General enquiry</option>
+              <option>Admission</option>
+              <option>Fee / accounts</option>
+              <option>Visit request</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-success"></p>
+          <p class="form-note">This form saves your message locally for demo purposes. For immediate response, please call or email the school directly.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h4>SSMPS Amethi</h4><p>Serving Agahar &amp; surrounding areas</p></div>
+      <div><h4>Hours</h4><ul><li>Office: school working days</li><li>Best time to call: morning</li></ul></div>
+      <div><h4>Quick dial</h4><ul><li><a href="tel:+919792201779">9792201779</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>&copy; <span id="year"></span> SSMPS</p></div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>
