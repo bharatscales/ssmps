@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="SSMPS Logo">
-  <circle cx="60" cy="60" r="58" fill="#1a4d8c"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#c9a227" stroke-width="3"/>
-  <text x="60" y="52" text-anchor="middle" fill="#e8d48b" font-family="Georgia, serif" font-size="14" font-weight="bold">SSMPS</text>
-  <text x="60" y="72" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8">AMETHI</text>
-  <path d="M30 88 L60 72 L90 88" fill="none" stroke="#c9a227" stroke-width="2"/>
-</svg>
